@@ -51,10 +51,10 @@ The application expects JSON files in the following format:
 
 Place your data files in a directory (e.g., `/home/test_data/test1` or `/mnt/user-data/uploads/test2`).
 
-Open server.js, and update this line to point to the PARENT of test data directory: 
+Open a terminal window: 
 
-```javascript
-const baseDir = '/PARENT_OF_TEST_DATA_FOLDER';
+```bash
+export BASE_DIR=YOUR_TEST_DATA_ROOT
 ```
 
 ### 3. Start the Server
