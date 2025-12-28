@@ -4,7 +4,8 @@
 
 ### Step 1: Navigate to the project directory
 ```bash
-cd /mnt/user-data/outputs
+cd knowledge-graph-viewer
+export BASE_DIR=YOUR_TEST_DATA_ROOT
 ```
 
 ### Step 2: Start the server
