@@ -1,0 +1,155 @@
+[
+  {
+    "correct_answer": "Butterflies undergo a remarkable transformation throughout their life cycle.",
+    "retrieved_nodes": [
+      "metamorphosis",
+      "butterfly",
+      "adult_butterfly"
+    ],
+    "retrieved_context": "Node: metamorphosis\nmetamorphosis process_detail organ_dissolution\nmetamorphosis produces new_tissues\nmetamorphosis metamorphosis_duration days_to_weeks\nchrysalis undergoes metamorphosis\nNode: butterfly\nbutterfly instance_of butterfly\nadult_butterfly instance_of butterfly\nNode: adult_butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_butterfly pumps_fluid fluid\nadult_butterfly pumps_into wings\nadult_butterfly feeds_on nectar\nadult_butterfly uses",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "Female butterflies lay their eggs on specific host plants.",
+    "retrieved_nodes": [
+      "female_butterfly",
+      "adult_butterfly",
+      "pollination"
+    ],
+    "retrieved_context": "Node: female_butterfly\nfemale_butterfly agent lays\nfemale_butterfly female_lays_again egg\nfemale_butterfly lays_on host_plant\nNode: adult_butterfly\nadult_butterfly instance_of butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_butterfly pumps_fluid fluid\nadult_butterfly pumps_into wings\nadult_butterfly feeds_on nectar\nadult_butterfly uses proboscis\nadult_butterfly role_in_pollination pollination\nadult_butterfly transfers pollen\nadult_butterfly v",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "Butterfly eggs are usually laid on the underside of leaves.",
+    "retrieved_nodes": [
+      "underside_of_leaf",
+      "adult_butterfly",
+      "butterfly"
+    ],
+    "retrieved_context": "Node: underside_of_leaf\negg protected_by underside_of_leaf\nNode: adult_butterfly\nadult_butterfly instance_of butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_butterfly pumps_fluid fluid\nadult_butterfly pumps_into wings\nadult_butterfly feeds_on nectar\nadult_butterfly uses proboscis\nadult_butterfly role_in_pollination pollination\nadult_butterfly transfers pollen\nadult_butterfly visits flower\nadult_butterfly food_for bird\nadult_butterfly food_for",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "The size, shape, and color of butterfly eggs vary depending on the species.",
+    "retrieved_nodes": [
+      "butterfly",
+      "adult_butterfly",
+      "female_butterfly"
+    ],
+    "retrieved_context": "Node: butterfly\nbutterfly instance_of butterfly\nadult_butterfly instance_of butterfly\nNode: adult_butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_butterfly pumps_fluid fluid\nadult_butterfly pumps_into wings\nadult_butterfly feeds_on nectar\nadult_butterfly uses proboscis\nadult_butterfly role_in_pollination pollination\nadult_butterfly transfers pollen\nadult_butterfly visits flower\nadult_butterfly food_for bird\nadult_butterfly food_for reptile\nad",
+    "evaluation": 0
+  },
+  {
+    "correct_answer": "After hatching, a tiny larva, known as a caterpillar, emerges.",
+    "retrieved_nodes": [
+      "larva",
+      "larva_stage",
+      "metamorphosis"
+    ],
+    "retrieved_context": "Node: larva\nlarva equivalent caterpillar\negg hatches_into larva\nNode: larva_stage\nlarva_stage stage_of life_cycle\nlife_cycle has_stage larva_stage\nNode: metamorphosis\nmetamorphosis process_detail organ_dissolution\nmetamorphosis produces new_tissues\nmetamorphosis metamorphosis_duration days_to_weeks\nchrysalis undergoes metamorphosis\nNode: pupa_stage\npupa_stage stage_of life_cycle\nlife_cycle has_stage pupa_stage\ncaterpillar prepares_for pupa_stage\nNode: molting\nmolting sheds skin\nmolting molting_f",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "Caterpillars are voracious eaters and spend most of their time feeding on leaves.",
+    "retrieved_nodes": [
+      "leaves_food",
+      "caterpillar",
+      "adult_butterfly"
+    ],
+    "retrieved_context": "Node: leaves_food\ncaterpillar feeding_description leaves_food\nNode: caterpillar\ncaterpillar agent eat\ncaterpillar attaches_to leaf\ncaterpillar grows_rapidly true\ncaterpillar molts molting\ncaterpillar has_protection spines\ncaterpillar has_protection hairs\ncaterpillar uses_camouflage camouflage\ncaterpillar mimics twig\ncaterpillar role_in_ecosystem_rel role_in_ecosystem\ncaterpillar contributes_to_pollination pollination\ncaterpillar maintains plant_populations\ncaterpillar prepares_for pupa_stage\ncat",
+    "evaluation": 0
+  },
+  {
+    "correct_answer": "Caterpillars shed their skin several times as they grow.",
+    "retrieved_nodes": [
+      "molting",
+      "metamorphosis",
+      "larva"
+    ],
+    "retrieved_context": "Node: molting\nmolting sheds skin\nmolting molting_frequency several-times\ncaterpillar molts molting\nNode: metamorphosis\nmetamorphosis process_detail organ_dissolution\nmetamorphosis produces new_tissues\nmetamorphosis metamorphosis_duration days_to_weeks\nchrysalis undergoes metamorphosis\nNode: larva\nlarva equivalent caterpillar\negg hatches_into larva\nNode: caterpillar\ncaterpillar agent eat\ncaterpillar attaches_to leaf\ncaterpillar feeding_description leaves_food\ncaterpillar grows_rapidly true\ncaterp",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "Caterpillars come in a variety of shapes, sizes, and colors.",
+    "retrieved_nodes": [
+      "caterpillar",
+      "shape",
+      "metamorphosis"
+    ],
+    "retrieved_context": "Node: caterpillar\ncaterpillar agent eat\ncaterpillar attaches_to leaf\ncaterpillar feeding_description leaves_food\ncaterpillar grows_rapidly true\ncaterpillar molts molting\ncaterpillar has_protection spines\ncaterpillar has_protection hairs\ncaterpillar uses_camouflage camouflage\ncaterpillar mimics twig\ncaterpillar role_in_ecosystem_rel role_in_ecosystem\ncaterpillar contributes_to_pollination pollination\ncaterpillar maintains plant_populations\ncaterpillar prepares_for pupa_stage\ncaterpillar attaches_",
+    "evaluation": 0
+  },
+  {
+    "correct_answer": "Caterpillars play a crucial role in pollination and maintaining plant populations.",
+    "retrieved_nodes": [
+      "pollination",
+      "plant_populations",
+      "biodiversity"
+    ],
+    "retrieved_context": "Node: pollination\ncaterpillar contributes_to_pollination pollination\nadult_butterfly role_in_pollination pollination\nNode: plant_populations\ncaterpillar maintains plant_populations\nNode: biodiversity\nrole_in_ecosystem provides biodiversity\nNode: caterpillar\ncaterpillar agent eat\ncaterpillar attaches_to leaf\ncaterpillar feeding_description leaves_food\ncaterpillar grows_rapidly true\ncaterpillar molts molting\ncaterpillar has_protection spines\ncaterpillar has_protection hairs\ncaterpillar uses_camouf",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "The caterpillar attaches itself to a leaf or stem and forms a chrysalis.",
+    "retrieved_nodes": [
+      "chrysalis",
+      "adult_butterfly",
+      "molting"
+    ],
+    "retrieved_context": "Node: chrysalis\nchrysalis chrysalis_type pupa\nchrysalis chrysalis_function protection\nchrysalis undergoes metamorphosis\ncaterpillar forms chrysalis\nNode: adult_butterfly\nadult_butterfly instance_of butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_butterfly pumps_fluid fluid\nadult_butterfly pumps_into wings\nadult_butterfly feeds_on nectar\nadult_butterfly uses proboscis\nadult_butterfly role_in_pollination pollination\nadult_butterfly transfers po",
+    "evaluation": 0
+  },
+  {
+    "correct_answer": "Inside the chrysalis, the caterpillar undergoes metamorphosis.",
+    "retrieved_nodes": [
+      "metamorphosis",
+      "molting",
+      "larva_stage"
+    ],
+    "retrieved_context": "Node: metamorphosis\nmetamorphosis process_detail organ_dissolution\nmetamorphosis produces new_tissues\nmetamorphosis metamorphosis_duration days_to_weeks\nchrysalis undergoes metamorphosis\nNode: molting\nmolting sheds skin\nmolting molting_frequency several-times\ncaterpillar molts molting\nNode: larva_stage\nlarva_stage stage_of life_cycle\nlife_cycle has_stage larva_stage\nNode: chrysalis\nchrysalis chrysalis_type pupa\nchrysalis chrysalis_function protection\ncaterpillar forms chrysalis\nNode: larva\nlarva",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "During metamorphosis, the caterpillar's body undergoes significant changes.",
+    "retrieved_nodes": [
+      "metamorphosis",
+      "molting",
+      "larva"
+    ],
+    "retrieved_context": "Node: metamorphosis\nmetamorphosis process_detail organ_dissolution\nmetamorphosis produces new_tissues\nmetamorphosis metamorphosis_duration days_to_weeks\nchrysalis undergoes metamorphosis\nNode: molting\nmolting sheds skin\nmolting molting_frequency several-times\ncaterpillar molts molting\nNode: larva\nlarva equivalent caterpillar\negg hatches_into larva\nNode: larva_stage\nlarva_stage stage_of life_cycle\nlife_cycle has_stage larva_stage\nNode: caterpillar\ncaterpillar agent eat\ncaterpillar attaches_to lea",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "The adult butterfly emerges from the chrysalis after metamorphosis is complete.",
+    "retrieved_nodes": [
+      "adult_butterfly",
+      "female_butterfly",
+      "metamorphosis"
+    ],
+    "retrieved_context": "Node: adult_butterfly\nadult_butterfly instance_of butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_butterfly pumps_fluid fluid\nadult_butterfly pumps_into wings\nadult_butterfly feeds_on nectar\nadult_butterfly uses proboscis\nadult_butterfly role_in_pollination pollination\nadult_butterfly transfers pollen\nadult_butterfly visits flower\nadult_butterfly food_for bird\nadult_butterfly food_for reptile\nadult_butterfly food_for other_insect\nadult_butter",
+    "evaluation": 0
+  },
+  {
+    "correct_answer": "Adult butterflies feed on nectar from flowers using their proboscis.",
+    "retrieved_nodes": [
+      "adult_butterfly",
+      "female_butterfly",
+      "pollination"
+    ],
+    "retrieved_context": "Node: adult_butterfly\nadult_butterfly instance_of butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_butterfly pumps_fluid fluid\nadult_butterfly pumps_into wings\nadult_butterfly feeds_on nectar\nadult_butterfly uses proboscis\nadult_butterfly role_in_pollination pollination\nadult_butterfly transfers pollen\nadult_butterfly visits flower\nadult_butterfly food_for bird\nadult_butterfly food_for reptile\nadult_butterfly food_for other_insect\nadult_butter",
+    "evaluation": 1
+  },
+  {
+    "correct_answer": "Butterflies play a crucial role in pollination and serve as a food source for other animals.",
+    "retrieved_nodes": [
+      "pollination",
+      "butterfly",
+      "female_butterfly"
+    ],
+    "retrieved_context": "Node: pollination\ncaterpillar contributes_to_pollination pollination\nadult_butterfly role_in_pollination pollination\nNode: butterfly\nbutterfly instance_of butterfly\nadult_butterfly instance_of butterfly\nNode: female_butterfly\nfemale_butterfly agent lays\nfemale_butterfly female_lays_again egg\nfemale_butterfly lays_on host_plant\nNode: other_insect\nadult_butterfly food_for other_insect\nNode: adult_butterfly\nadult_butterfly part_of adult_stage\nadult_butterfly has_attribute soft_wrinkled_wings\nadult_",
+    "evaluation": 1
+  },
+  {
+    "accuracy": "66.67%"
+  }
+]
